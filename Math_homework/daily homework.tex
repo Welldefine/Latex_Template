@@ -1,0 +1,44 @@
+\documentclass[12pt, a4paper, oneside]{ctexart}
+\usepackage{amsmath, amsthm, amssymb, bm, color, framed, graphicx, hyperref, mathrsfs,extarrows}
+\title{\textbf{Daily Math Homework Template}}
+\author{XXX-Student ID}
+\date{Time} % 输入\today以显示当日日期
+\linespread{1.5}
+\definecolor{shadecolor}{RGB}{241, 241, 255} %可以选择自己喜欢的颜色
+\newcounter{problemname}
+
+% 这一部分可以设置自己需要的模块
+\newenvironment{problem}{\begin{shaded}\stepcounter{problemname}\par\noindent\textbf{题目\arabic{problemname}. }}{\end{shaded}\par}
+\newenvironment{solution}{\par\noindent\textbf{解答. }}{\par}
+\newenvironment{note}{\par\noindent\textbf{题目\arabic{problemname}的注记. }}{\par}
+\newenvironment{ProblemList}{\par\noindent\textbf{题单. }}{\par}
+
+% 设置文档的背景
+\usepackage{background}
+\backgroundsetup{scale=0.6, angle=0, opacity = 1,contents = {\includegraphics[width=\paperwidth, height=\paperwidth, keepaspectratio]{logo-RUC.png}}}
+
+\begin{document}
+
+\maketitle
+\begin{ProblemList}
+    这是一个题单示例: 《某书》4.1
+\end{ProblemList}
+
+\begin{problem}
+    这是一个问题示例:
+\end{problem}
+
+\begin{solution}
+    这是一个解答示例:
+\end{solution}
+
+\begin{proof}
+    这是一个证明示例:
+
+\end{proof}
+
+\begin{note}
+    这是一个注记示例:
+\end{note}
+
+\end{document}
