@@ -1,4 +1,4 @@
-# Math Homework
+# Math Note
 
 这是一个用于编写数学笔记的 LaTeX 模板仓库，包含了一些常用的设置和示例代码，帮助你快速开始使用 LaTeX 编写数学笔记。
 

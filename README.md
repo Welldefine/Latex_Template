@@ -15,8 +15,8 @@
 
 该仓库主要包括：
 * 课程类：
-  * Math Homework: [数学类课程日常作业](https://github.com/Welldefine/Latex_Template-/tree/main/Math_homework)
-  * Math Note: 数学类课程笔记
+  * Math Homework: [数学类课程日常作业](https://github.com/Welldefine/Latex_Template/tree/main/Math%20Homework)
+  * Math Note: [数学类课程笔记](https://github.com/Welldefine/Latex_Template/tree/main/Math%20Note)
   * Codework: 涉及代码支持任务的笔记或作业 
 * 论文类:
   * CUCMC2024: 2024全国大学生数学建模比赛论文模板
