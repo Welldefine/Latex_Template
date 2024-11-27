@@ -35,8 +35,7 @@
 \usepackage{background}
 \backgroundsetup{scale=0.6, angle=0, opacity = 1,contents = {\includegraphics[width=\paperwidth, height=\paperwidth, keepaspectratio]{logo-RUC.png}}}
 ```
-初始化部分支持自定义文档名称、日期、并设置自己所需要的模块和文档背景。效果如下：
-![alt text](image.png)
+初始化部分支持自定义文档名称、日期、并设置自己所需要的模块和文档背景。
 ```latex
 \begin{document}
 
@@ -62,6 +61,7 @@
     这是一个注记示例:
 \end{note}
 ```
-效果如下：
-![alt text](image-2.png) 
+预览：
+
+![alt text](image.png)
 
