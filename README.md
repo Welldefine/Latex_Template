@@ -1,8 +1,8 @@
-# $\LaTeX$_Template
+# LaTeX_Template
 
 ## 目录
 
-- $\LaTeX\_Temple$  
+- $\LaTeX ~Temple$  
   - [目录](#目录)
   - [简介](#简介)
   - [安装](#安装)
