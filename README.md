@@ -2,7 +2,7 @@
 
 ## 目录
 
-- [$\\LaTeX$\_Template](#latex_template)
+- $\LaTeX\_Temple$  
   - [目录](#目录)
   - [简介](#简介)
   - [安装](#安装)
