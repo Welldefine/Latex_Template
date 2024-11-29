@@ -1,10 +1,23 @@
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{MathNote}[2024/11/27 Maths Notes Template]
-\LoadClass{article} % 基于 article 文档类
+\LoadClass[a4paper]{article} 
+\usepackage[hmargin=1in,vmargin=1in]{geometry}
+\usepackage{amsmath, amsthm, amssymb, bm, color, framed, graphicx, hyperref, mathrsfs,extarrows}
+\usepackage{tikz}
+\usetikzlibrary{matrix, arrows}
+
+\usepackage{titlesec}
+
+\titleformat{\section}
+  {\normalfont\Large\bfseries} % 格式设置
+  {\thesection} % 标题标号
+  {1em} % 标题与标号之间的间距
+  {} % 标题前的代码
+
 
 % 加载必要的宏包
 \RequirePackage{tcolorbox, varwidth}
-\RequirePackage{amsthm}
+
 
 % 加载 tcolorbox 的额外库
 \tcbuselibrary{breakable}
@@ -14,9 +27,18 @@
 % 定义颜色
 \definecolor{TheoremColor}{RGB}{34,139,34} 
 \definecolor{DefColor}{RGB}{45, 52, 151}
-\definecolor{CorollaryColor}{RGB}{158, 80, 143} 
 \definecolor{ExampleColor}{RGB}{226,135,67} 
 \definecolor{ProofColor}{RGB}{34,139,34} 
+\definecolor{shadecolor}{RGB}{241, 241, 255} %可以选择自己喜欢的颜色
+\colorlet{shadetransparent}{shadecolor!5} % 调整shade的透明度
+
+% 定义命题和推论环境，并使其编号与章节同步
+\newtheorem{proposition}{\textbf{Proposition}}[section]
+\newtheorem{corollary}{\textbf{Corollary}}[section]
+\newtheorem{lemma}{\textbf{Lemma}}[section]
+\newenvironment{note}{\begin{shaded}\par\noindent\textbf{Note. }}{\end{shaded}\par}
+
+
 
 % 定义标题样式
 \newtcbtheorem[number within = section]{theorem}{Theorem}%
@@ -33,17 +55,8 @@
 	borderline={0.5mm}{0mm}{DefColor!15!white},
 	borderline={0.5mm}{0mm}{DefColor!50!white,dashed},
 	attach boxed title to top left={yshift=-2mm,xshift=2mm},
-	boxed title style={boxrule=0.4pt,colframe=DefColor!50!white,
-     colback=DefColor!15!white, left=0mm, right=0mm, top=0mm, bottom=0mm}
+	boxed title style={boxrule=0.4pt}
      ,varwidth boxed title}{defo}
-
-\newtcbtheorem[number within = section]{corollary}{Corollary}%
-{enhanced,frame empty,interior empty,colframe=CorollaryColor!50!white,
-	coltitle=CorollaryColor!50!black,fonttitle=\bfseries,colbacktitle=CorollaryColor!15!white,
-	borderline={0.5mm}{0mm}{CorollaryColor!15!white},
-	borderline={0.5mm}{0mm}{CorollaryColor!50!white,dashed},
-	attach boxed title to top left={yshift=-2mm,xshift=2mm},
-	boxed title style={boxrule=0.4pt},varwidth boxed title}{defo}
 
 \newtcbtheorem[number within = section]{example}{Example}%
 {enhanced,frame empty,interior empty,colframe=ExampleColor!50!white,
@@ -60,4 +73,4 @@
 
 % 添加背景
 \usepackage{background}
-\backgroundsetup{scale=0.6, angle=0, opacity = 1,contents = {\includegraphics[width=\paperwidth, height=\paperwidth, keepaspectratio]{logo-RUC.png}}}
+\backgroundsetup{scale=0.5, angle=0, opacity = 1,contents = {\includegraphics[width=\paperwidth, height=\paperwidth, keepaspectratio]{logo-RUC.png}}}
