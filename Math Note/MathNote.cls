@@ -73,4 +73,4 @@
 
 % 添加背景
 \usepackage{background}
-\backgroundsetup{scale=0.5, angle=0, opacity = 1,contents = {\includegraphics[width=\paperwidth, height=\paperwidth, keepaspectratio]{logo-RUC.png}}}
+\backgroundsetup{scale=0.4, angle=0, opacity = 1,contents = {\includegraphics[width=\paperwidth, height=\paperwidth, keepaspectratio]{logo-RUC.png}}}

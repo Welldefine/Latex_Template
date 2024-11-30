@@ -29,15 +29,6 @@
 初始化部分支持自定义文档名称、日期、通过更改cls文件还可以进一步设置中英文支持和以及实现更加复杂的功能。
 
 ```latex
-% This is the main file for the document. It contains the preamble and the document body.，
-% The preamble contains the document class, the title, the author, and any packages that are needed.
-% 如果需要中文支持,请将 \documentclass{MathNote} 替换为 \documentclass{MathNoteCN}
-
-\documentclass{MathNote}
-
-\title{Maths Notes With \LaTeX}
-\author{Tian R.Z.}
-
 \begin{document}
 	\maketitle
 	\section{Introduction}
