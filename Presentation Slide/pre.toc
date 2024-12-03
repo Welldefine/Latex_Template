@@ -1,4 +1,0 @@
-\beamer@sectionintoc {1}{Historical Perspective}{3}{0}{1}
-\beamer@sectionintoc {2}{Current Limitations}{6}{0}{2}
-\beamer@sectionintoc {3}{Future Job Growth}{8}{0}{3}
-\beamer@sectionintoc {4}{The End}{10}{0}{4}
