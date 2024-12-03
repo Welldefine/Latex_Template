@@ -8,7 +8,6 @@
   - [安装](#安装)
   - [使用方法](#使用方法)
   - [贡献](#贡献)
-  - [许可证](#许可证)
 
 ## 简介
 这是一个用于创建 $\LaTeX$ 文档的模板仓库，包含了个人常用的模板以及使用示例，帮助你快速使用 $\LaTeX$ 应对各种任务。
@@ -18,9 +17,11 @@
   * Math Homework: [数学类课程日常作业](https://github.com/Welldefine/Latex_Template/tree/main/Math%20Homework)
   * Math Note: [数学类课程笔记](https://github.com/Welldefine/Latex_Template/tree/main/Math%20Note)
   * Codework: 涉及代码支持任务的笔记或作业 
-* 论文类:
+* 文章类: 
+  * English Article: [英文日常写作模板](https://github.com/Welldefine/Latex_Template/tree/main/English%20Article)
   * CUCMC2024: 2024全国大学生数学建模比赛论文模板
 * 报告类：
+  * Presentation Slide: [日常展示$Beamer$ 模板](https://github.com/Welldefine/Latex_Template/tree/main/Presentation%20Slide)
   * 中国人民大学统计学院 $Beamer$ 模板
 * 其他：
   * Resume: 个人简历模板
@@ -46,6 +47,3 @@
 
 ## 贡献
 欢迎贡献代码！如果你有任何改进建议或发现了问题，请提交 issue 或 pull request。
-
-## 许可证
-本项目采用 MIT 许可证，详情请参阅 LICENSE 文件。
