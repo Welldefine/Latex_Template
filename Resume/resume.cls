@@ -1,6 +1,6 @@
 \RequirePackage{expl3,l3keys2e}
 \ProvidesExplClass{resume}
-{2024-12-19}{Another Resume Class by Tian Runze}
+{2024-12-19}{1.0}{Another Resume Class by Tian Runze}
 
 % Keep Quiet
 \PassOptionsToPackage{quiet}{xeCJK}

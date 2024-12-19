@@ -24,7 +24,7 @@
   * Presentation Slide: [日常展示$Beamer$ 模板](https://github.com/Welldefine/Latex_Template/tree/main/Presentation%20Slide)
   * 中国人民大学统计学院 $Beamer$ 模板
 * 其他：
-  * Resume: 个人简历模板
+  * Resume: [个人简历模板](https://github.com/Welldefine/Latex_Template/tree/main/Resume)
 * 待补充 $\cdots$
 
 ## 安装
