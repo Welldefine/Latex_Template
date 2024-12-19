@@ -1,6 +1,9 @@
 # Resume
 这是一个用于编写个人项目简历的 $\LaTeX$ 模板，包含了一些常用的设置和示例代码，旨在实现最佳的信息密度和美学吸引力。
-![alt text](image.png)
+
+<div style="text-align: center;">
+    <img src="image.png" alt="alt text" width="350"/>
+</div>
 
 ## 特性
 
