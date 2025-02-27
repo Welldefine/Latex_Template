@@ -22,7 +22,7 @@
 * 文章类:
   * English Article: [英文日常写作模板](https://github.com/Welldefine/Latex_Template/tree/main/English%20Article)
   * CUCMC2024: 2024全国大学生数学建模比赛论文模板
-  * MCM-ICM2025: 2025美国大学生数学建模比赛论文模板
+  * MCM-ICM2025: [2025美国大学生数学建模比赛论文模板](https://github.com/Welldefine/Latex_Template/tree/main/MCM-ICM2025)
 * 报告类：
   * Presentation Slide: [日常展示Beamer模板](https://github.com/Welldefine/Latex_Template/tree/main/Presentation%20Slide)
   * 中国人民大学统计学院 $Beamer$ 模板
