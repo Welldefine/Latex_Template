@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.8.7)  24 FEB 2025 22:20
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.8.7)  22 JUL 2025 22:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -505,15 +505,12 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7.52812> on input line 28.
 
 
-LaTeX Font Warning: Font shape `TU/SimHei(0)/b/n' undefined
-(Font)              using `TU/SimHei(0)/m/n' instead on input line 98.
+Package hyperref Warning: Suppressing link with empty target on input line 99.
 
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12.045> on input line 98.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 98.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 98.
+
+LaTeX Font Warning: Font shape `TU/SimHei(0)/b/n' undefined
+(Font)              using `TU/SimHei(0)/m/n' instead on input line 111.
+
 [1
 
 ] (./main.aux)
@@ -526,15 +523,15 @@ L3 programming layer <2022/08/05>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 618D6C8CBEE601C0D52D2EC4C150624B;1867.
+(rerunfilecheck)             Checksum: 59E97E787E108EAA05F4AC4C2FE71205;2129.
  ) 
 Here is how much of TeX's memory you used:
- 16557 strings out of 474773
- 377700 string characters out of 5761290
- 1971842 words of memory out of 5000000
- 38489 multiletter control sequences out of 15000+600000
- 565025 words of font info for 90 fonts, out of 8000000 for 9000
+ 16565 strings out of 474773
+ 379585 string characters out of 5761290
+ 1979842 words of memory out of 5000000
+ 38508 multiletter control sequences out of 15000+600000
+ 562273 words of font info for 79 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 107i,7n,111p,1260b,443s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 107i,7n,111p,1265b,444s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on main.pdf (1 page).
